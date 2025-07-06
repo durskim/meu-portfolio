@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#welcome">Início</a></li>
+                    <li><a href="../projetos/projetos.html">Projetos</a></li>
+                    <li><a href="../carreira/carreira.html">Carreira</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <!-- Botão de Tema -->
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="welcome" class="welcome-section">
+            <div class="container">
+                <h2>Bem-vindo(a)!</h2>
+                <p>Profissional formada em Biomedicina e em transição de carreira para a área de Análise e Desenvolvimento de Sistemas. Atualmente atuo com SAP na CAST Group, onde venho adquirindo experiência em ambientes corporativos de tecnologia, participando de auditorias de contrato e colaborando com as equipes de Basis, Security e Customer Experience. Busco uma oportunidade para continuar me desenvolvendo na área de tecnologia, aplicando meus conhecimentos técnicos e minha capacidade analítica em projetos que envolvam sistemas empresariais, segurança, conformidade e suporte a processos de negócio.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Detona-Ralph-Game</h3>
+                        <p>Este é um projeto de jogo do Detona Ralph desenvolvido para fins de estudo usando HTML, CSS e JavaScript.</p>
+                        <a href="../projetos/projetos.html#detona-ralph" class="btn">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="career-section">
+            <div class="container">
+                <h2>Carreira Profissional</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>ANALISTA TÉCNICA SAP JR.</h3>
+                            <span class="date">Empresa: Cast Group (2025 - Atualmente)</span>
+                            <p>Atuo com projetos e demandas relacionadas ao sistema SAP, com foco em auditorias de contrato e segurança da informação. Dou suporte às áreas de Basis, Security e Customer Experience, acompanhando e compreendendo os diferentes ambientes SAP (PRD, QAS e DEV). Participo de processos de conformidade, validação de acessos e desenvolvimento de uma visão crítica e analítica voltada à auditoria e ao controle de riscos..</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>BIOMÉDICA ESTETA</h3>
+                            <span class="date">Empresa:AUTÔNOMA (2022 - Atualmente)</span>
+                            <p>Atendimento direto ao cliente, agendamento de procedimentos e acompanhamento de resultados. Gestão de canais de contato como WhatsApp e Instagram.</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="../carreira/carreira.html" class="btn">Ver Mais Detalhes</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-section">
+             <div class="container">
+                <h2>Contato</h2>
+                <p>Vamos conversar! Entre em contato por um dos canais abaixo.</p>
+                <div class="contact-links">
+                    <a href="mailto:durski.m@gmail.com" class="contact-link" title="E-mail">
+                        <i class="fas fa-envelope"></i>
+                        <span>durski.m@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mariana-durski/" target="_blank" class="contact-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://wa.me/5541998623784" target="_blank" class="contact-link" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(41) 99862-3784</span>
+                    </a>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mariana Durski. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
